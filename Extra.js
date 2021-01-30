@@ -1,19 +1,14 @@
-var cultivationtype=prompt("what sort of plant do you prefer?");
-var insectkillertype=prompt("what sort of plant do you prefer?");
+var insectkiller = prompt("How many KG of orange do you want?");
+var orderdetail = "";
 
-var orderdetail;
-
-if(insectkiller > 1 && insectkiller <3){
-orderdetail="congrats you gained a one bottle more"
-}else if (insectkiller >3 && insectkiller <=5){
-orderdetail= "congrats you gained a two bottle more";
-
-orderdetail="sorry your input incorrect";
-
-
-
-
-
-
-
-document.write (orderdetail)
+if (insectkiller > 1 && insectkiller < 5) {
+    orderdetail = "congrats you gained a one KG more"
+}
+else {
+    if (insectkiller >= 5 && insectkiller < 10) {
+        orderdetail = "congrats you gained a two KG more";
+    }
+}
+confirm("Are you sure??");
+alert("Thank you for using this page!");
+document.write(orderdetail);
