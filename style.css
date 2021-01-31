@@ -1,0 +1,18 @@
+
+body{
+    background-color: mediumaquamarine;
+}
+p{
+    text-align:center;
+    margin:20px 0px 20px 0px;
+}
+
+
+header nav ul li a {
+    color: rgb(57, 112, 167);
+    text-decoration: none;
+}
+
+#frontend{
+    float:right;
+}
